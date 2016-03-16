@@ -1,0 +1,4 @@
+setuptools
+Django<=1.8.6
+urllib3
+oauth2

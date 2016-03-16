@@ -55,13 +55,12 @@ def get_mockdata_url(service_name, implementation_name,
     :param implementation_name:
         possible values: "file", etc.
     """
-
+    print("MOCK URL " + url)
     dir_base = dirname(__file__)
     __initialize_app_resource_dirs()
 
-    RESOURCE_ROOT = abspath(dir_base + "/../resources/" +
+    RESOURCE_ROOT = abspath(dir_base + "/resources/" +
                             service_name + "/" + implementation_name)
-
     file_path = None
     success = False
     start_time = time.time()
@@ -114,10 +113,12 @@ def _load_resource_from_path(resource_dir, service_name,
 
         file_path = None
         handle = None
+        print("Where I need to go " + orig_file_path)
         for path in paths:
             try:
                 file_path = path
                 handle = open(path)
+                print("SUCCESS?!?!?")
                 break
             except IOError as ex:
                 pass

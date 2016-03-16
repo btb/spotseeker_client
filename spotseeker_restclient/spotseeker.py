@@ -13,6 +13,7 @@ class Spotseeker(object):
     def get_spot_by_id(self, spot_id):
         url = "/api/v1/spot/%s" % spot_id
         dao = SPOTSEEKER_DAO()
+        print("The id is " + spot_id)
         if isinstance(dao._getDAO(), File):
             resp = dao.getURL(url, {})
             content = resp.data

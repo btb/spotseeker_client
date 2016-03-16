@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: spotseeker-restclient
+Version: 0.1
+Summary: A Django app for consuming the spotseeker REST API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache License, Version 2.0
+Description: Spotseeker Restclient
+        =====
+        
+        This is the client for the spotseeker REST API.
+Platform: UNKNOWN
