@@ -5,8 +5,8 @@
     "type": ["cafe"],
     "meta_type": ["food"],
     "location": {
-      "longitude": -122.3138366,
-      "latitude": 47.6556415,
+      "longitude": -122.313718,
+      "latitude": 47.655829,
       "height_from_sea_level": 0.10,
       "building_name": "Alder Hall",
       "floor": 0,

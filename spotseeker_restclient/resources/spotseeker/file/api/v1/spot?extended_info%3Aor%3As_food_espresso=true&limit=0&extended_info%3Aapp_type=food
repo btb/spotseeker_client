@@ -1,1776 +1,212 @@
-[  
-   {  
-      "capacity":null,
-      "name":"Burke Caf\u00e9",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-543-9854",
-         "s_food_salads":"true",
-         "hours_notes":"First Thursday of Every Month: 7am - 8pm",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_cuisine_light_lunch":"true",
-         "campus":"seattle",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_food_sandwiches":"true",
-         "s_pay_husky":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/Default.aspx?id=339&libID=360",
-         "owner":"Housing and Food Services (HFS)",
-         "app_type":"food",
-         "s_cuisine_american":"true",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/2",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:36.535342+00:00",
-      "etag":"b0e77dce77f91123edaefb95d5a844ee8c190e95",
-      "type":[  
-
-      ],
-      "images":[  
-         {  
-            "upload_user":"cstimmel",
-            "thumbnail_root":"/api/v1/spot/2/image/2/thumb",
-            "modification_date":"2015-12-09T00:32:38.827856+00:00",
-            "url":"/api/v1/spot/2/image/2",
-            "upload_application":"oldadmin",
-            "display_index":0,
-            "height":585,
-            "width":765,
-            "creation_date":"2015-12-09T00:32:38.827820+00:00",
-            "content-type":"image/jpeg",
-            "id":2,
-            "description":"yay"
-         }
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":2,
-      "location":{  
-         "floor":"Ground Floor",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.310593,
-         "latitude":47.660611,
-         "building_name":"Burke Memorial-Washington State Museum (BMM)"
+[
+{
+    "id": "7",
+    "uri": "/api/v1/spot/7",
+    "name": "Husky Grind at District Market",
+    "type": ["cafe"],
+    "meta_type": ["food"],
+    "location": {
+      "longitude": -122.313718,
+      "latitude": 47.655829,
+      "height_from_sea_level": 0.10,
+      "building_name": "Alder Hall",
+      "floor": 0,
+      "room_number": "456",
+      "description": "This is a building"
+    },
+    "capacity": 0,
+    "display_access_restrictions": "none",
+    "images": [
+      {
+        "id":"1",
+        "url":"/api/v1/spot/5/image/1",
+        "content-type":"image/jpeg",
+        "width":0,
+        "height":0,
+        "creation_date":"Sun, 06 Nov 1994 08:49:37 GMT",
+        "modification_date":"Mon, 07 Nov 1994 01:49:37 GMT",
+        "upload_user":"user name",
+        "upload_application":"application name",
+        "thumbnail_root":"/api/v1/spot/5/image/1/thumb",
+        "description": "Information about the image",
+        "display_index": 0
       }
-   },
-   {  
-      "capacity":null,
-      "name":"By George",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-8992",
-         "s_food_salads":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_cuisine_japanese":"true",
-         "s_pay_mastercard":"true",
-         "s_food_entrees":"true",
-         "campus":"seattle",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_food_smoothies":"true",
-         "s_food_sandwiches":"true",
-         "s_pay_husky":"true",
-         "s_food_sushi":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/Default.aspx?id=332&libID=353",
-         "owner":"Housing and Food Services (HFS)",
-         "s_cuisine_american":"true",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/3",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
+    ],
+    "available_hours":{
+      "monday": [ ["00:00", "10:00" ], ["11:00", "21:00"] ],
+      "tuesday": [ ["11:00", "21:00" ] ],
+      "wednesday": [ ["11:00", "21:00"] ],
+      "thursday": [ ["11:00", "21:00"] ],
+      "friday": [ ["11:00", "21:00"] ],
+      "saturday": [],
+      "sunday": [ ["11:00", "21:00"] ]
+    },
+    "organization": "Test Org",
+    "manager": "Mr Test Org",
+    "extended_info": {
+      "app_type" : "food",
+      "campus" : "seattle",
+      "hours_notes" : "",
+      "access_notes" : "",
 
-         ],
-         "saturday":[  
 
-         ]
-      },
-      "manager":"Katherine Dunsmoor",
-      "last_modified":"2015-12-09T00:32:39.349470+00:00",
-      "etag":"24c7925c7a5fcca8a148dd24378d417f8a8544be",
-      "type":[  
+      "s_menu_url" : "www.yelp.com",
+      "s_website_url" : "www.uw.edu/food",
+      "s_contact_phone" : "2066168026",
 
-      ],
-      "images":[  
-         {  
-            "upload_user":"cstimmel",
-            "thumbnail_root":"/api/v1/spot/3/image/3/thumb",
-            "modification_date":"2015-12-09T00:32:41.102293+00:00",
-            "url":"/api/v1/spot/3/image/3",
-            "upload_application":"oldadmin",
-            "display_index":0,
-            "height":40,
-            "width":150,
-            "creation_date":"2015-12-09T00:32:41.102235+00:00",
-            "content-type":"image/jpeg",
-            "id":3,
-            "description":"yay"
-         }
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":3,
-      "location":{  
-         "floor":"Ground Floor",
-         "height_from_sea_level":null,
-         "room_number":"By George",
-         "longitude":-122.310491,
-         "latitude":47.656311,
-         "building_name":"Odegaard Undergraduate Library (OUGL)"
+      "s_has_alert" : true,
+      "s_alert_notes" : "red fish blue fish one fish two fish",
+
+      "s_has_reservation" : false,
+      "s_reservation_notes" : "",
+
+      "s_has_coupon" : false,
+      "s_coupon_expiration" : "",
+      "s_coupon_url" : "",
+
+      "s_cuisine_american" : false,
+      "s_cuisine_bbq" : false,
+      "s_cuisine_chinese" : false,
+      "s_cuisine_hawaiian" : false,
+      "s_cuisine_indian" : false,
+      "s_cuisine_italian" : false,
+      "s_cuisine_japanese" : false,
+      "s_cuisine_korean" : false,
+      "s_cuisine_mexican" : false,
+      "s_cuisine_vietnamese" : false,
+
+      "s_cuisine_light_lunch" : false,
+
+      "s_food_appetizers" : false,
+      "s_food_burgers" : false,
+      "s_food_entrees" : false,
+      "s_food_espresso" : true,
+      "s_food_pasta" : false,
+      "s_food_pizza" : false,
+      "s_food_salads" : false,
+      "s_food_sandwiches" : false,
+      "s_food_smoothies" : false,
+      "s_food_sushi" : false,
+      "s_food_tacos" : false,
+
+      "s_pay_cash" : true,
+      "s_pay_visa" : false,
+      "s_pay_mastercard" : false,
+      "s_pay_husky" : true,
+      "s_pay_dining" : true,
+
+      "s_open_breakfast" : false,
+      "s_open_lunch" : true,
+      "s_open_dinner" : true,
+      "s_open_late_night" : true
+    },
+    "last_modified": "2012-07-13T05:00:00+00:00",
+    "etag": "686897696a7c876b7e",
+    "external_id": "asd123"
+  },
+  {
+    "id": "8",
+    "uri": "/api/v1/spot/8",
+    "name": "Husky Grind at Mercer Court",
+    "type": ["cafe"],
+    "meta_type": ["food"],
+    "location": {
+      "longitude": -122.317042,
+      "latitude": 47.654706, 
+      "height_from_sea_level": 0.10,
+      "building_name": "Mercer Court",
+      "floor": 0,
+      "room_number": "456",
+      "description": "This is a building"
+    },
+    "capacity": 0,
+    "display_access_restrictions": "none",
+    "images": [
+      {
+        "id":"1",
+        "url":"/api/v1/spot/5/image/1",
+        "content-type":"image/jpeg",
+        "width":0,
+        "height":0,
+        "creation_date":"Sun, 06 Nov 1994 08:49:37 GMT",
+        "modification_date":"Mon, 07 Nov 1994 01:49:37 GMT",
+        "upload_user":"user name",
+        "upload_application":"application name",
+        "thumbnail_root":"/api/v1/spot/5/image/1/thumb",
+        "description": "Information about the image",
+        "display_index": 0
       }
-   },
-   {  
-      "capacity":null,
-      "name":"Caf\u00e9 815 Mercer",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-543-8724",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/Default.aspx?id=330&libID=351",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"south_lake_union",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/4",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:41.366571+00:00",
-      "etag":"a934e0f585a652de619e37c143f9a17b011e132a",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":4,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.340703,
-         "latitude":47.624822,
-         "building_name":"Brotman Building (BFB)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Court Caf\u00e9",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-685-1226",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/5",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:41.731836+00:00",
-      "etag":"972f919844271cf7a34f37720862203eb15943be",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":5,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.309868,
-         "latitude":47.650754,
-         "building_name":"Magnuson Health Sciences Center T (HST)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Etc.",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-221-6836",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/markets/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/10",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:43.003222+00:00",
-      "etag":"678f42c52a9a04832f4244266afa8384cff6e8c8",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":10,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.3051239,
-         "latitude":47.6553649,
-         "building_name":"Husky Union Building (HUB)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"H-bar",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-2739",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/12",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:43.727679+00:00",
-      "etag":"dc954f467b55f9814ac3a551e6d8b2afe9796574",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":12,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.31114,
-         "latitude":47.653616,
-         "building_name":"Physics / Astronomy Building (PAB)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Husky Grind at District Market",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-543-5367",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/huskygrind/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/13",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:44.049280+00:00",
-      "etag":"da4c2370eed9f578301ddcc3457612243c9244e5",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":13,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.313764,
-         "latitude":47.655842,
-         "building_name":"Alder Hall (ALD)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Husky Grind at Mercer Court",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-221-2398",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/huskygrind/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/14",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:44.303326+00:00",
-      "etag":"43a47e99672d98ac699c9b4b01945d0100ed223f",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":14,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.317143,
-         "latitude":47.654696,
-         "building_name":"Mercer Court (MRC)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Mary Gates Hall Espresso",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-221-6651",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/17",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:45.017650+00:00",
-      "etag":"696e626e1d42fdbc97a3a4bfbe96c63e8047a834",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":17,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.307733,
-         "latitude":47.654591,
-         "building_name":"Mary Gates Hall (MGH)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Microscopic Market",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-543-8285",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"south_lake_union",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/18",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:45.306220+00:00",
-      "etag":"3188f96cf45dc17b76c77b403278cf74083cd68a",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":18,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.341326,
-         "latitude":47.623828,
-         "building_name":"Brotman Building (BFB)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Orin's Place",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-685-4611",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/orinsplace/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/21",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:46.296989+00:00",
-      "etag":"24791158c699e4325b1d5f8a01b4cbe363107e06",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":21,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.308382,
-         "latitude":47.659036,
-         "building_name":"Paccar Hall (PCAR)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Overpass Espresso",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-7568",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/22",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:46.598677+00:00",
-      "etag":"9339458ce7a48ee4aed8b4bf88d4d02ecd077f2f",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":22,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.309042,
-         "latitude":47.650942,
-         "building_name":"Magnuson Health Sciences Center T (HST)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Parnassus",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-543-7033",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/parnassus/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/26",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:49.071565+00:00",
-      "etag":"97ab6bdff1a900c4bf0d64c5d8468c3613aeb5f2",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":26,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.306467,
-         "latitude":47.65845,
-         "building_name":"Art Building (ART)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Public Grounds",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-221-7051",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/28",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:49.668568+00:00",
-      "etag":"d944b358497a7d42263ebce8a0945e1080505cc8",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":28,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.310362,
-         "latitude":47.657475,
-         "building_name":"Parrington Hall (PAR)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Reboot",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-8860",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/29",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:50.128144+00:00",
-      "etag":"71991d0a4ad1be170b8d571ff2cc9adbb1018eea",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":29,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.30592,
-         "latitude":47.653262,
-         "building_name":"Computer Science and Engineering Building (CSE)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"The Rotunda",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-7623",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/Default.aspx?id=328&libID=349",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/32",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:50.940362+00:00",
-      "etag":"a6e0fce083e4e347b716984df763dc95f7db3406",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":32,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.310523,
-         "latitude":47.651238,
-         "building_name":"Magnuson Health Sciences Center T (HST)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Starbucks\u00ae Coffee",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-2553",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_pay_dining":"true",
-         "s_food_smoothies":"true",
-         "s_cuisine_american":"true",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/34",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:51.405283+00:00",
-      "etag":"7073060ce0185e1ed7193baf8c5886f2f56a34fd",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":34,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.3100547,
-         "latitude":47.6558794,
-         "building_name":"Husky Union Building (HUB)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Suzzallo Espresso",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-3327",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/36",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:52.461771+00:00",
-      "etag":"b6cd80cd5edf7f58ffb2b8cbc1211fa72521e080",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":36,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.308667,
-         "latitude":47.65582,
-         "building_name":"Suzzallo Library (SUZ)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"The Supreme Cup",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-9949",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/39",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:53.150790+00:00",
-      "etag":"cff0bed124093a99852953a556138f6ce100277a",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":39,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.311177,
-         "latitude":47.659043,
-         "building_name":"William H. Gates Hall (LAW)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Think Tank",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-543-7977",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/40",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:53.418073+00:00",
-      "etag":"0bc1fb358f0e5763a531e0d73665aabf8e556c11",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":40,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.308517,
-         "latitude":47.653652,
-         "building_name":"Bagley Hall (BAG)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Tower Caf\u00e9",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-5328",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/espresso/",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/41",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:53.770042+00:00",
-      "etag":"a5b514a91f325925dcccdc8bc2d0f318d79c3bda",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":41,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.315201,
-         "latitude":47.660785,
-         "building_name":"UW Tower Building A (UWTA)"
-      }
-   },
-   {  
-      "capacity":null,
-      "name":"Vista Caf\u00e9",
-      "external_id":null,
-      "extended_info":{  
-         "s_pay_cash":"true",
-         "s_phone":"206-616-7623",
-         "s_pay_husky":"true",
-         "app_type":"food",
-         "s_food_espresso":"true",
-         "s_pay_mastercard":"true",
-         "s_pay_dining":"true",
-         "location_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in consequat purus. Suspendisse euismod scelerisque malesuada. Aenean eu hendrerit lorem, egestas ullamcorper lacus. Sed dignissim nunc non dolor vulputate, in volutpat metus laoreet.",
-         "s_cuisine_american":"true",
-         "s_website_url":"https://www.hfs.washington.edu/dining/Default.aspx?id=324&libID=345",
-         "owner":"Housing and Food Services (HFS)",
-         "campus":"seattle",
-         "s_pay_visa":"true"
-      },
-      "uri":"/api/v1/spot/42",
-      "available_hours":{  
-         "monday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "tuesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "friday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "wednesday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "thursday":[  
-            [  
-               "10:30",
-               "14:30"
-            ]
-         ],
-         "sunday":[  
-
-         ],
-         "saturday":[  
-
-         ]
-      },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:54.211220+00:00",
-      "etag":"3a97e5fd15ac32db10573f797905a13089faabec",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":42,
-      "location":{  
-         "floor":"",
-         "height_from_sea_level":null,
-         "room_number":"",
-         "longitude":-122.312808,
-         "latitude":47.652192,
-         "building_name":"William H. Foege Bioengineering (BIOE)"
-      }
-   }
+    ],
+    "available_hours":{
+      "monday": [ ["00:00", "10:00" ], ["11:00", "21:00"] ],
+      "tuesday": [ ["11:00", "21:00" ] ],
+      "wednesday": [ ["11:00", "21:00"] ],
+      "thursday": [ ["11:00", "21:00"] ],
+      "friday": [ ["11:00", "21:00"] ],
+      "saturday": [],
+      "sunday": [ ["11:00", "21:00"] ]
+    },
+    "organization": "Test Org",
+    "manager": "Mr Test Org",
+    "extended_info": {
+      "app_type" : "food",
+      "campus" : "seattle",
+      "hours_notes" : "",
+      "access_notes" : "",
+
+
+      "s_menu_url" : "www.yelp.com",
+      "s_website_url" : "www.uw.edu/food",
+      "s_contact_phone" : "2066168026",
+
+      "s_has_alert" : true,
+      "s_alert_notes" : "red fish blue fish one fish two fish",
+
+      "s_has_reservation" : false,
+      "s_reservation_notes" : "",
+
+      "s_has_coupon" : false,
+      "s_coupon_expiration" : "",
+      "s_coupon_url" : "",
+
+      "s_cuisine_american" : false,
+      "s_cuisine_bbq" : false,
+      "s_cuisine_chinese" : false,
+      "s_cuisine_hawaiian" : false,
+      "s_cuisine_indian" : false,
+      "s_cuisine_italian" : false,
+      "s_cuisine_japanese" : false,
+      "s_cuisine_korean" : false,
+      "s_cuisine_mexican" : false,
+      "s_cuisine_vietnamese" : false,
+
+      "s_cuisine_light_lunch" : false,
+
+      "s_food_appetizers" : false,
+      "s_food_burgers" : false,
+      "s_food_entrees" : false,
+      "s_food_espresso" : true,
+      "s_food_pasta" : false,
+      "s_food_pizza" : false,
+      "s_food_salads" : false,
+      "s_food_sandwiches" : false,
+      "s_food_smoothies" : false,
+      "s_food_sushi" : false,
+      "s_food_tacos" : false,
+
+      "s_pay_cash" : true,
+      "s_pay_visa" : false,
+      "s_pay_mastercard" : false,
+      "s_pay_husky" : true,
+      "s_pay_dining" : true,
+
+      "s_open_breakfast" : false,
+      "s_open_lunch" : true,
+      "s_open_dinner" : true,
+      "s_open_late_night" : true
+    },
+    "last_modified": "2012-07-13T05:00:00+00:00",
+    "etag": "686897696a7c876b7e",
+    "external_id": "asd123"
+  }
 ]

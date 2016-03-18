@@ -591,8 +591,8 @@
     "type": ["cafe"],
     "meta_type": ["food"],
     "location": {
-      "longitude": -122.3138366,
-      "latitude": 47.6556415,
+      "longitude": -122.313718,
+      "latitude": 47.655829,
       "height_from_sea_level": 0.10,
       "building_name": "Alder Hall",
       "floor": 0,
@@ -690,14 +690,14 @@
     "external_id": "asd123"
   },
   {
-    "id": "7",
-    "uri": "/api/v1/spot/7",
+    "id": "8",
+    "uri": "/api/v1/spot/8",
     "name": "Husky Grind at Mercer Court",
     "type": ["cafe"],
     "meta_type": ["food"],
     "location": {
-      "longitude": -122.3160025,
-      "latitude": 47.6558498,
+      "longitude": -122.317042,
+      "latitude": 47.654706, 
       "height_from_sea_level": 0.10,
       "building_name": "Mercer Court",
       "floor": 0,
