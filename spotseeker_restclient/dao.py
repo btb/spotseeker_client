@@ -30,8 +30,7 @@ class MY_DAO(DAO_BASE):
     def _getCache(self):
         return self._getModule('DAO_CACHE_CLASS', NoCache)
 
-    def _getURL(self, service, url, headers):
-        print("DAO URL " + url)
+    def _getURL(self, service, url, headers): 
         dao = self._getDAO()
         cache = self._getCache()
         cache_response = cache.getCache(service, url, headers)
@@ -65,10 +64,9 @@ class MY_DAO(DAO_BASE):
         response = dao.putURL(url, headers, body)
         return response
 
-
 class SPOTSEEKER_DAO(MY_DAO):
     def getURL(self, url, headers):
-        print("URL " + url)
+	print("URL" + url) # delete this later, using for debugging purposes
         return self._getURL('spotseeker', url, headers)
 
     def _getDAO(self):

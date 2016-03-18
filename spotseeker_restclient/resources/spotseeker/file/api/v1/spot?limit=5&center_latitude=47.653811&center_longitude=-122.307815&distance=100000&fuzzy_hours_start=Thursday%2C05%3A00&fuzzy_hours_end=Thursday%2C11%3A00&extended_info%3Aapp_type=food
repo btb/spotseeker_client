@@ -1,8 +1,5 @@
 [  
    {  
-      "capacity":null,
-      "name":"Think Tank",
-      "external_id":null,
       "extended_info":{  
          "s_pay_cash":"true",
          "s_phone":"206-543-7977",
@@ -18,6 +15,16 @@
          "campus":"seattle",
          "s_pay_visa":"true"
       },
+      "manager":"",
+      "last_modified":"2015-12-09T00:32:53.418073+00:00",
+      "images":[  
+
+      ],
+      "display_access_restrictions":"",
+      "id":40,
+      "capacity":null,
+      "name":"Think Tank",
+      "external_id":null,
       "uri":"/api/v1/spot/40",
       "available_hours":{  
          "monday":[  
@@ -57,18 +64,7 @@
 
          ]
       },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:53.418073+00:00",
       "etag":"0bc1fb358f0e5763a531e0d73665aabf8e556c11",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":40,
       "location":{  
          "floor":"",
          "height_from_sea_level":null,
@@ -76,12 +72,13 @@
          "longitude":-122.308517,
          "latitude":47.653652,
          "building_name":"Bagley Hall (BAG)"
-      }
+      },
+      "organization":"",
+      "type":[  
+
+      ]
    },
    {  
-      "capacity":null,
-      "name":"Mary Gates Hall Espresso",
-      "external_id":null,
       "extended_info":{  
          "s_pay_cash":"true",
          "s_phone":"206-221-6651",
@@ -97,6 +94,16 @@
          "campus":"seattle",
          "s_pay_visa":"true"
       },
+      "manager":"",
+      "last_modified":"2015-12-09T00:32:45.017650+00:00",
+      "images":[  
+
+      ],
+      "display_access_restrictions":"",
+      "id":17,
+      "capacity":null,
+      "name":"Mary Gates Hall Espresso",
+      "external_id":null,
       "uri":"/api/v1/spot/17",
       "available_hours":{  
          "monday":[  
@@ -136,18 +143,7 @@
 
          ]
       },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:45.017650+00:00",
       "etag":"696e626e1d42fdbc97a3a4bfbe96c63e8047a834",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":17,
       "location":{  
          "floor":"",
          "height_from_sea_level":null,
@@ -155,12 +151,13 @@
          "longitude":-122.307733,
          "latitude":47.654591,
          "building_name":"Mary Gates Hall (MGH)"
-      }
+      },
+      "organization":"",
+      "type":[  
+
+      ]
    },
    {  
-      "capacity":null,
-      "name":"Suzzallo Espresso",
-      "external_id":null,
       "extended_info":{  
          "s_pay_cash":"true",
          "s_phone":"206-616-3327",
@@ -176,6 +173,16 @@
          "campus":"seattle",
          "s_pay_visa":"true"
       },
+      "manager":"",
+      "last_modified":"2015-12-09T00:32:52.461771+00:00",
+      "images":[  
+
+      ],
+      "display_access_restrictions":"",
+      "id":36,
+      "capacity":null,
+      "name":"Suzzallo Espresso",
+      "external_id":null,
       "uri":"/api/v1/spot/36",
       "available_hours":{  
          "monday":[  
@@ -215,18 +222,7 @@
 
          ]
       },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:52.461771+00:00",
       "etag":"b6cd80cd5edf7f58ffb2b8cbc1211fa72521e080",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":36,
       "location":{  
          "floor":"",
          "height_from_sea_level":null,
@@ -234,12 +230,13 @@
          "longitude":-122.308667,
          "latitude":47.65582,
          "building_name":"Suzzallo Library (SUZ)"
-      }
+      },
+      "organization":"",
+      "type":[  
+
+      ]
    },
    {  
-      "capacity":null,
-      "name":"Reboot",
-      "external_id":null,
       "extended_info":{  
          "s_pay_cash":"true",
          "s_phone":"206-616-8860",
@@ -255,6 +252,16 @@
          "campus":"seattle",
          "s_pay_visa":"true"
       },
+      "manager":"",
+      "last_modified":"2015-12-09T00:32:50.128144+00:00",
+      "images":[  
+
+      ],
+      "display_access_restrictions":"",
+      "id":29,
+      "capacity":null,
+      "name":"Reboot",
+      "external_id":null,
       "uri":"/api/v1/spot/29",
       "available_hours":{  
          "monday":[  
@@ -294,18 +301,7 @@
 
          ]
       },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:50.128144+00:00",
       "etag":"71991d0a4ad1be170b8d571ff2cc9adbb1018eea",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":29,
       "location":{  
          "floor":"",
          "height_from_sea_level":null,
@@ -313,12 +309,13 @@
          "longitude":-122.30592,
          "latitude":47.653262,
          "building_name":"Computer Science and Engineering Building (CSE)"
-      }
+      },
+      "organization":"",
+      "type":[  
+
+      ]
    },
    {  
-      "capacity":null,
-      "name":"H-bar",
-      "external_id":null,
       "extended_info":{  
          "s_pay_cash":"true",
          "s_phone":"206-616-2739",
@@ -334,6 +331,16 @@
          "campus":"seattle",
          "s_pay_visa":"true"
       },
+      "manager":"",
+      "last_modified":"2015-12-09T00:32:43.727679+00:00",
+      "images":[  
+
+      ],
+      "display_access_restrictions":"",
+      "id":12,
+      "capacity":null,
+      "name":"H-bar",
+      "external_id":null,
       "uri":"/api/v1/spot/12",
       "available_hours":{  
          "monday":[  
@@ -373,18 +380,7 @@
 
          ]
       },
-      "manager":"",
-      "last_modified":"2015-12-09T00:32:43.727679+00:00",
       "etag":"dc954f467b55f9814ac3a551e6d8b2afe9796574",
-      "type":[  
-
-      ],
-      "images":[  
-
-      ],
-      "organization":"",
-      "display_access_restrictions":"",
-      "id":12,
       "location":{  
          "floor":"",
          "height_from_sea_level":null,
@@ -392,6 +388,10 @@
          "longitude":-122.31114,
          "latitude":47.653616,
          "building_name":"Physics / Astronomy Building (PAB)"
-      }
+      },
+      "organization":"",
+      "type":[  
+
+      ]
    }
 ]
