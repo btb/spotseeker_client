@@ -66,7 +66,6 @@ class MY_DAO(DAO_BASE):
 
 class SPOTSEEKER_DAO(MY_DAO):
     def getURL(self, url, headers):
-	print("URL" + url) # delete this later, using for debugging purposes
         return self._getURL('spotseeker', url, headers)
 
     def _getDAO(self):
