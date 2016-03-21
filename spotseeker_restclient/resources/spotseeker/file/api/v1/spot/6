@@ -59,9 +59,9 @@
       "s_has_reservation" : false,
       "s_reservation_notes" : "",
 
-      "s_has_coupon" : false,
-      "s_coupon_expiration" : "",
-      "s_coupon_url" : "",
+      "s_has_coupon" : "true",
+      "s_coupon_expiration" : "Tomorrow",
+      "s_coupon_url" : "www.twitter.com",
 
       "s_cuisine_american" : false,
       "s_cuisine_bbq" : false,
@@ -76,7 +76,7 @@
 
       "s_cuisine_light_lunch" : false,
 
-      "s_food_appetizers" : false,
+      "s_food_appetizers" : true,
       "s_food_burgers" : false,
       "s_food_entrees" : false,
       "s_food_espresso" : false,
