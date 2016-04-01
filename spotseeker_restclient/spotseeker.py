@@ -89,16 +89,50 @@ class Spotseeker(object):
             spot_types.append(SpotType(name=spot_type))
         return spot_types
 
-    def _spot_availability_from_data(self, avaliblity_data):
+    def _spot_availability_from_data(self, availablity_data):
         availability = []
+        day_list = ["monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday",
+                    "saturday",
+                    "sunday"]
 
-        for day in avaliblity_data:
-            for hours in avaliblity_data[day]:
+        for day in availablity_data:
+            day_index = day_list.index(day)
+            next_day_index = (day_index + 1) % len(day_list)
+            close_used = True
+            for hours in availablity_data[day_list[next_day_index]]:
+                if hours[0] == u'00:00':
+                    overnight = True
+                    close = hours[1] # get the early morning end time
+                    close_used = False
+            for hours in availablity_data[day]:
                 available_hours = SpotAvailableHours()
                 available_hours.day = day
-                available_hours.start_time = parse_time(hours[0])
-                available_hours.end_time = parse_time(hours[1])
+                if hours[1] == u'23:59' and overnight:
+                    available_hours.start_time = parse_time(hours[0])
+                    available_hours.end_time = parse_time(close)
+                    availability.append(available_hours)
+                    close_used = True
+                elif hours[1] == u'23:59' and not hours[0] == u'00:00':
+                    available_hours.start_time = parse_time(hours[0])
+                    available_hours.end_time = parse_time(u'00:00')
+                    availability.append(available_hours)
+                elif not hours[0] == u'00:00' and not hours[1] == u'23:59':
+                    available_hours.start_time = parse_time(hours[0])
+                    available_hours.end_time = parse_time(hours[1])
+                    availability.append(available_hours)
+            if not close_used:
+                available_hours = SpotAvailableHours()
+                available_hours.day = day_list[next_day_index]
+                available_hours.start_time = parse_time("00:00")
+                available_hours.end_time = parse_time(close)
                 availability.append(available_hours)
+                close_used = True
+            overnight = False
+
         return availability
 
     def _spot_images_from_data(self, image_data):

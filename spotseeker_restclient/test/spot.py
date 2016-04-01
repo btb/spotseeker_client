@@ -120,3 +120,13 @@ class SpotseekerTest(TestCase):
         self.assertEqual(spot_data.images[0].display_index, 0)
 
         self.assertEqual(len(spot_data.spot_availability), 5)
+
+    def test_available_hours(self):
+        spot_client = Spotseeker()
+
+        spot_data = spot_client.get_spot_by_id('4')
+
+        spot_availability = spot_data.spot_availability
+        import pdb; pdb.set_trace()
+        
+        self.assertEqual(len(spot_availability), 7)
