@@ -106,7 +106,7 @@ class Spotseeker(object):
             for hours in availablity_data[day_list[next_day_index]]:
                 if hours[0] == u'00:00':
                     overnight = True
-                    close = hours[1] # get the early morning end time
+                    close = hours[1]  # get the early morning end time
                     close_used = False
             for hours in availablity_data[day]:
                 available_hours = SpotAvailableHours()

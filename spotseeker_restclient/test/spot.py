@@ -127,6 +127,5 @@ class SpotseekerTest(TestCase):
         spot_data = spot_client.get_spot_by_id('4')
 
         spot_availability = spot_data.spot_availability
-        import pdb; pdb.set_trace()
-        
+
         self.assertEqual(len(spot_availability), 7)
